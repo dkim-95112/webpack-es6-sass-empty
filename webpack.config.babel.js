@@ -4,7 +4,7 @@ const webConfig = {
   target: 'web',
   context: path.resolve('.'),
   entry: {
-    landing: './client/index.js'
+    index: './client/index.js'
   },
   output: {
     path: path.resolve('./client/build/dist'),
