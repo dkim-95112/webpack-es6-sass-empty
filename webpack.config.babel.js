@@ -33,6 +33,8 @@ const webConfig = {
           loader: 'style-loader'
         }, {
           loader: 'css-loader'
+        }, {
+          loader: 'sass-loader'
         }]
       }
     ]
