@@ -26,6 +26,14 @@ const webConfig = {
         use: {
           loader: 'html-loader'
         }
+      },
+      {
+        test: /\.scss$/,
+        use: [{
+          loader: 'style-loader'
+        }, {
+          loader: 'css-loader'
+        }]
       }
     ]
   }

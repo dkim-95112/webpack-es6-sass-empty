@@ -7,7 +7,7 @@ const path = require('path'),
 
 router
   .use('/', express.static('client/build/dist'))
-  .get('/', (req, res, next) => {
+  .get('/', (req, res) => {
     res
       .send('<script src="bundle.js"></script>')
   })
